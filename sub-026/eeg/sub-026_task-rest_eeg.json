@@ -1,0 +1,22 @@
+{
+    "TaskName": "rest",
+    "Manufacturer": "Brain Products",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 1000.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 735.339,
+    "RecordingType": "continuous",
+    "EEGReference": "FCz",
+    "EEGGround": "Fpz",
+    "EEGPlacementScheme": "based on the extended 10/20 system",
+    "EEGChannelCount": 63,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 1,
+    "TriggerChannelCount": 0,
+    "InstitutionName": "Ural Federal University",
+    "InstitutionalDepartmentName": "Department of Psychology",
+    "TaskDescription": "Resting-state recording consisting of four alternating blocks of 60 s with eyes closed and 60 s with eyes open, followed by 3 min 52 s of passive cartoon watching ('The Man Who Was Afraid of Falling', 2011).",
+    "MiscChannelDescription": "Includes PPG channel recorded simultaneously with EEG"
+}

@@ -1,0 +1,22 @@
+{
+    "TaskName": "verbalwm",
+    "Manufacturer": "Brain Products",
+    "PowerLineFrequency": 50.0,
+    "SamplingFrequency": 1000.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 4573.769,
+    "RecordingType": "continuous",
+    "EEGReference": "FCz",
+    "EEGGround": "Fpz",
+    "EEGPlacementScheme": "based on the extended 10/20 system",
+    "EEGChannelCount": 63,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 1,
+    "TriggerChannelCount": 0,
+    "InstitutionName": "Ural Federal University",
+    "InstitutionalDepartmentName": "Department of Psychology",
+    "TaskDescription": "Sets of 7 digits presented visually in four blocks: 1) Simultaneously for 2800 ms; and Sequentially for 2) 400 ms, 3) 1000 ms, 4) 600 ms with 400 ms ISI. Participants were asked to retain a set for 6 s and then recall it in correct serial order.",
+    "MiscChannelDescription": "Includes PPG channel recorded simultaneously with EEG"
+}

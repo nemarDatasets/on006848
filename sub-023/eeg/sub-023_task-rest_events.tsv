@@ -1,0 +1,12 @@
+﻿onset	duration	trial_type	value	sample
+0.0	0.0	Boundary	99999	0
+5.846	0.0	Eyes_Closed	20	5846
+65.852	0.0	Eyes_Opened	21	65852
+125.859	0.0	Eyes_Closed	20	125859
+185.861	0.0	Eyes_Opened	21	185861
+245.864	0.0	Eyes_Closed	20	245864
+305.866	0.0	Eyes_Opened	21	305866
+365.868	0.0	Eyes_Closed	20	365868
+425.87	0.0	Eyes_Opened	21	425870
+499.45	0.0	Start_Cartoon	22	499450
+731.292	0.0	End_Cartoon	23	731292
