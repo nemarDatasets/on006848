@@ -1,5 +1,5 @@
 {
-    "Name": "EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
+    "Name": "AlphaDirection1: EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "License": "CC0",
