@@ -1,4 +1,4 @@
-﻿Overview
+Overview
 
 This dataset consists of raw 64-channel EEG, electrocardiography (ECG), photoplethysmography (PPG), and behavioral data recorded from 30 healthy young adults during two experimental conditions: resting state and a verbal working memory (digit span) task with serial recall.
 
@@ -19,7 +19,6 @@ They were instructed to memorize each sequence and type the digits in serial ord
 
 Data organization
 
-The dataset follows the BIDS specification. (https://bids.neuroimaging.io/)
 Each participant folder (sub-XXX) contains:
  • eeg/ — EEG, ECG, and PPG recordings in BrainVision format (.vhdr, .vmrk, .eeg) accompanied by event (_events.tsv) and metadata (.json) files.
 When available, both the resting-state (task-rest) and working-memory (task-verbalwm) recordings are stored here.
