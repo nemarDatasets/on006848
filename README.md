@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006848-blue)](https://doi.org/10.82901/nemar.on006848)
+
 Overview
 
 This dataset consists of raw 64-channel EEG, electrocardiography (ECG), photoplethysmography (PPG), and behavioral data recorded from 30 healthy young adults during two experimental conditions: resting state and a verbal working memory (digit span) task with serial recall.
