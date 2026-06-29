@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006848",
+  "source": "openneuro",
+  "source_id": "ds006848",
+  "title": "AlphaDirection1: EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
+  "authors": {
+    "Alexandra I. Kosachenko": {},
+    "Danil I. Syttykov": {},
+    "Dmitry A. Tarasov": {},
+    "Alexander I. Kotyusov": {},
+    "Yuri G. Pavlov": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006848.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
