@@ -1,33 +1,94 @@
 {
   "version": "2.0",
-  "dataset_id": "on006848",
-  "source": "openneuro",
-  "source_id": "ds006848",
+  "pipeline_stage": "validated",
   "title": "AlphaDirection1: EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Alexandra I. Kosachenko": {},
     "Danil I. Syttykov": {},
     "Dmitry A. Tarasov": {},
     "Alexander I. Kotyusov": {},
-    "Yuri G. Pavlov": {}
+    "Yuri G. Pavlov": {
+      "orcid": "0000-0002-3896-5145",
+      "affiliations": [
+        {
+          "name": "Institute of Medical Psychology and Behavioral Neurobiology, University of Tübingen, Germany"
+        }
+      ]
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006848.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006848",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006848",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.05.04.652111",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "44.4 GB (172 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".mp4",
+    ".png",
+    ".psyexp",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".wav",
+    ".xlsx",
+    ".yml"
+  ],
+  "description": "This dataset comprises 64-channel EEG recordings with concurrent ECG and PPG measurements from 30 healthy young adults during resting state and a verbal working memory task. Participants performed digit span recall under four presentation modes (simultaneous, fast sequential, fast sequential with delay, and slow sequential), enabling investigation of neural oscillations and peripheral physiological responses during working memory encoding, maintenance, and retrieval. The dataset includes behavioral accuracy measures and trial-by-trial performance metrics.",
+  "methods_description": "EEG, ECG, and PPG were recorded continuously during two sessions: (1) resting state with alternating eyes-closed/eyes-open blocks and passive video viewing, and (2) verbal working memory task with visual presentation of seven-digit sequences under four different temporal presentation modes. Participants performed serial recall by typing digits on a numpad with the right hand. Behavioral accuracy and partial-score measures were computed for each trial.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "photoplethysmography"
+    },
+    {
+      "term": "digit span task"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "4bd3f3bc97995f62977a05b31dded70643d1721c1d32786bdc0bb1b71f3a725c"
 }
