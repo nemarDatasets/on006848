@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "AlphaDirection1: EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
+  "description": "This dataset comprises raw 64-channel EEG, ECG, PPG, and behavioral data collected from 30 healthy young adults during resting-state and verbal working memory tasks. Participants completed a digit-span serial recall task under four stimulus presentation modes (simultaneous, fast, fast+delay, and slow sequential), enabling investigation of neural and physiological correlates of encoding, maintenance, and retrieval. The dataset supports research on working memory load classification and the relationship between oscillatory brain activity, autonomic signals, and behavioral performance.",
+  "methods_description": "EEG (64-channel), ECG, and PPG were recorded continuously during a resting-state session (alternating 1-minute eyes-closed/eyes-open blocks and passive video watching) and during a verbal working memory task in which participants memorized sequences of seven digits presented under four different timing conditions and then typed them in order. Data were stored in BrainVision format with accompanying event and behavioral files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,6 +20,35 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Photoplethysmography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
+    },
+    {
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
+      "term": "Alpha activity"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "serial recall"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006848.v1.0.0",
@@ -37,15 +68,15 @@
     {
       "identifier": "10.1101/2025.05.04.652111",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
     "44.4 GB (172 files)"
   ],
@@ -64,31 +95,6 @@
     ".wav",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This dataset comprises 64-channel EEG recordings with concurrent ECG and PPG measurements from 30 healthy young adults during resting state and a verbal working memory task. Participants performed digit span recall under four presentation modes (simultaneous, fast sequential, fast sequential with delay, and slow sequential), enabling investigation of neural oscillations and peripheral physiological responses during working memory encoding, maintenance, and retrieval. The dataset includes behavioral accuracy measures and trial-by-trial performance metrics.",
-  "methods_description": "EEG, ECG, and PPG were recorded continuously during two sessions: (1) resting state with alternating eyes-closed/eyes-open blocks and passive video viewing, and (2) verbal working memory task with visual presentation of seven-digit sequences under four different temporal presentation modes. Participants performed serial recall by typing digits on a numpad with the right hand. Behavioral accuracy and partial-score measures were computed for each trial.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "ECG"
-    },
-    {
-      "term": "photoplethysmography"
-    },
-    {
-      "term": "digit span task"
-    },
-    {
-      "term": "event-related potentials"
-    }
   ],
   "source_hash": "4bd3f3bc97995f62977a05b31dded70643d1721c1d32786bdc0bb1b71f3a725c"
 }
