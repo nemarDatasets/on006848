@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "AlphaDirection1: EEG, ECG, PPG in the resting state and working memory for sequentially and simultaneously presented digits",
-  "description": "This dataset comprises raw 64-channel EEG, ECG, PPG, and behavioral data collected from 30 healthy young adults during resting-state and verbal working memory tasks. Participants completed a digit-span serial recall task under four stimulus presentation modes (simultaneous, fast, fast+delay, and slow sequential), enabling investigation of neural and physiological correlates of encoding, maintenance, and retrieval. The dataset supports research on working memory load classification and the relationship between oscillatory brain activity, autonomic signals, and behavioral performance.",
-  "methods_description": "EEG (64-channel), ECG, and PPG were recorded continuously during a resting-state session (alternating 1-minute eyes-closed/eyes-open blocks and passive video watching) and during a verbal working memory task in which participants memorized sequences of seven digits presented under four different timing conditions and then typed them in order. Data were stored in BrainVision format with accompanying event and behavioral files.",
+  "description": "Raw 64-channel EEG, ECG, PPG and behavioral recordings from 30 healthy young adults during resting state and a visual verbal working memory (digit span) task with serial recall. Digit sequences of seven items were presented either simultaneously or sequentially at different rates and with different delays, allowing examination of how temporal presentation structure affects neural oscillations, especially alpha activity. The dataset supports work on working memory load classification, ERP and oscillation analyses, and links between neural, peripheral physiological and behavioral measures.",
+  "methods_description": "Resting-state session: four alternating 1-minute eyes-closed and eyes-open blocks, followed by about 4 minutes of passive cartoon watching. Working memory task: participants viewed seven-digit sequences under four presentation modes (simultaneous 2800 ms; fast sequential 400 ms per digit; fast sequential with 600 ms ISI; slow sequential 1000 ms per digit) and typed the digits in serial order on a numpad. EEG, ECG and PPG were recorded in BrainVision format, with trial-wise accuracy and partial-score behavioral measures.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,28 +25,24 @@
       "term": "EEG"
     },
     {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+      "term": "working memory"
     },
     {
-      "term": "Photoplethysmography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
+      "term": "alpha oscillations"
     },
     {
-      "term": "Memory, Short-Term",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
-    },
-    {
-      "term": "Alpha activity"
+      "term": "digit span"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "serial recall"
+      "term": "ECG"
+    },
+    {
+      "term": "Photoplethysmography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017156"
     }
   ],
   "related_identifiers": [
@@ -68,7 +64,7 @@
     {
       "identifier": "10.1101/2025.05.04.652111",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -78,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "44.4 GB (172 files)"
+    "41.36 GB (172 files)"
   ],
   "formats": [
     ".eeg",
